@@ -43,8 +43,9 @@ section h1 {
   white-space: nowrap;
 }
 
-#section01 { background: url(Capture.jpg) center center / cover no-repeat; background-size: 100% 100%; width:1400px;height:600px;} 
+#section01 { background: url(https://i.postimg.cc/66RV5WVm/Capture.jpg) center center / cover no-repeat; background-size: 100% 100%; width:1400px;height:600px;} 
 #section02 { background: url() center center / cover no-repeat;} *
+
 
 #section02 {
         background-size: 50% auto; }
