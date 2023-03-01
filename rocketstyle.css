@@ -5,12 +5,15 @@
   margin: 0;
   padding: 0;
 }
-html, body {
-  height: 100%;
-}
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
 }
 
 section {
@@ -18,6 +21,7 @@ section {
   width: 100%;
   height: 100%;
 }
+
 
 /* section::after {
   position: absolute;
@@ -52,17 +56,17 @@ section h1 {
 
 .demo a {
   position: absolute;
-  bottom: 20px;
-  left: 48%;
+  bottom: 10px;
+  left: 45%;
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  color: #fff;
-  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  color: #DFAC22;
+  font : normal 600 20px/1 'Josefin Sans', sans-serif;
   letter-spacing: .1em;
   text-decoration: none;
-  transition: opacity .3s;
+  /* transition: opacity .3s; */
 }
 
 .demo a:hover {
@@ -80,8 +84,8 @@ section h1 {
   width: 24px;
   height: 24px;
   margin-left: -12px;
-  border-left: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-left: 1px solid #DFAC22;
+  border-bottom: 1px solid #DFAC22;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: sdb04 2s infinite;
@@ -92,7 +96,8 @@ section h1 {
 #section02 a {
   padding-top: 70px;
 }
-#section05 a span {
+
+/* #section02 a span {
   position: absolute;
   top: 0;
   left: 50%;
@@ -106,7 +111,7 @@ section h1 {
   -webkit-animation: sdb05 1.5s infinite;
   animation: sdb05 1.5s infinite;
   box-sizing: border-box;
-}
+} */
 
 #section03 a {
     padding-top: 70px;
