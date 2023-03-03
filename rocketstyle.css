@@ -47,8 +47,27 @@ section h1 {
   white-space: nowrap;
 }
 
+section h2 {
+    color: #FFDD9D;
+    top: 20%;
+    text-align: center;
+    font : bold 60px 'Oswald';
+}
+
+section p {
+      color: #FFDD9D;
+      position: relative;
+      text-align: center;
+      top: 10%;
+      line-height: 200%;
+      font : normal 14px 'Oswald';
+
+}
+
 #section01 { background: url(https://i.postimg.cc/66RV5WVm/Capture.jpg) center center / cover no-repeat; background-size: 100% 100%; width:1400px;height:600px;} 
-#section02 { background: url() center center / cover no-repeat;} *
+
+/* #section02 { url(https://i.postimg.cc/66RV5WVm/Capture.jpg) center center / cover no-repeat;} * */
+
 
 
 #section02 {
