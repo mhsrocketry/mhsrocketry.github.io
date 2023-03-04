@@ -52,22 +52,21 @@ section h2 {
     top: 20%;
     text-align: center;
     font : bold 60px 'Oswald';
+  line-height: 200%;
 }
 
 section p {
       color: #FFDD9D;
       position: relative;
-      text-align: center;
-      top: 10%;
-      line-height: 200%;
+/*       text-align: center; */
+      top: 5%;
+      right: 34%;
       font : normal 14px 'Oswald';
-
 }
 
 #section01 { background: url(https://i.postimg.cc/66RV5WVm/Capture.jpg) center center / cover no-repeat; background-size: 100% 100%; width:1400px;height:600px;} 
 
 /* #section02 { url(https://i.postimg.cc/66RV5WVm/Capture.jpg) center center / cover no-repeat;} * */
-
 
 
 #section02 {
@@ -131,6 +130,14 @@ section p {
   animation: sdb05 1.5s infinite;
   box-sizing: border-box;
 } */
+
+img {
+  display: block;
+  margin-left: 35px;
+  padding: 50px;
+  width: 234px;
+  height: 416px;
+}
 
 #section03 a {
     padding-top: 70px;
