@@ -48,20 +48,41 @@ section h1 {
 }
 
 section h2 {
-    color: #FFDD9D;
-    top: 20%;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    font : bold 60px 'Oswald';
-  line-height: 200%;
+    white-space: nowrap;
+    color: #FFDD9D;
+    font: bold 60px 'Oswald';
+    line-height: 200%;
+    border-style: solid;
+    border-color: purple;
 }
 
 section p {
       color: #FFDD9D;
-      position: relative;
-/*       text-align: center; */
-      top: 5%;
-      right: 34%;
       font : normal 14px 'Oswald';
+}
+
+.left {
+  position: static;
+  /* text-align: left; */
+  top: 10%;
+  right: 400px;
+  border-style: solid;
+  border-color: red;
+}
+
+
+.right {
+  position: static;
+  /* text-align: right; */
+  bottom: 10%;
+  left: 400px;
+  border-style: solid;
+  border-color: orange;
 }
 
 #section01 { background: url(https://i.postimg.cc/66RV5WVm/Capture.jpg) center center / cover no-repeat; background-size: 100% 100%; width:1400px;height:600px;} 
@@ -69,8 +90,8 @@ section p {
 /* #section02 { url(https://i.postimg.cc/66RV5WVm/Capture.jpg) center center / cover no-repeat;} * */
 
 
-#section02 {
-        background-size: 50% auto; }
+/* #section02 {
+        background-size: 50% auto; } */
 
 .demo a {
   position: absolute;
@@ -111,9 +132,9 @@ section p {
   box-sizing: border-box;
 }
 
-#section02 a {
+/* #section02 a {
   padding-top: 70px;
-}
+} */
 
 /* #section02 a span {
   position: absolute;
@@ -132,17 +153,20 @@ section p {
 } */
 
 img {
-  display: block;
-  margin-left: 35px;
+  display: flex;
+  margin-left: 55px;
+  margin-top: 240px;
   padding: 50px;
   width: 234px;
   height: 416px;
+/*   opacity: 0.5; */
 }
 
 #section03 a {
     padding-top: 70px;
   }
-  #section03 a span {
+
+#section03 a span {
     position: absolute;
     top: 0;
     left: 50%;
@@ -156,4 +180,4 @@ img {
     -webkit-animation: sdb06 1.5s infinite;
     animation: sdb06 1.5s infinite;
     box-sizing: border-box;
-  }
+  } 
