@@ -57,8 +57,6 @@ section h2 {
     color: #FFDD9D;
     font: bold 60px 'Oswald';
     line-height: 200%;
-    border-style: solid;
-    border-color: purple;
 }
 
 section p {
@@ -68,21 +66,40 @@ section p {
 
 .left {
   position: static;
-  /* text-align: left; */
+  text-align: center;
   top: 10%;
-  right: 400px;
+  right: 20%;
   border-style: solid;
-  border-color: red;
+  border-color: #FFDD9D;
+  margin-left: 20%;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 
 
 .right {
-  position: static;
-  /* text-align: right; */
-  bottom: 10%;
-  left: 400px;
+  position: absolute;
+  text-align: center;
+  bottom: 30%;
+  left: 50%;
   border-style: solid;
-  border-color: orange;
+  border-color: #FFDD9D;
+  margin-left: 20%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.mid {
+  position: absolute;
+  text-align: center;
+  bottom: 30%;
+  left: 30%;
+  border-style: solid;
+  border-color: #FFDD9D;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 
 #section01 { background: url(https://i.postimg.cc/66RV5WVm/Capture.jpg) center center / cover no-repeat; background-size: 100% 100%; width:1400px;height:600px;} 
