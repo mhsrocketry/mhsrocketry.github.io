@@ -278,6 +278,16 @@ nav a:hover {
 
 /* Section Eight */
 
+.section-eight h3 {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 700px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #DFAC22;
+}
+
 .section-eight h4 {
   margin: 1rem 0;
   font-size: 1.25rem;
@@ -290,7 +300,7 @@ nav a:hover {
 }
 
 .section-eight img {
-  
+  padding-top: 1.5rem;
 }
 
 .flex-group-eight {
@@ -351,9 +361,3 @@ nav a:hover {
   margin: 0 auto;
   width: 7.5rem;
 }
-
-
-
-
-
-
