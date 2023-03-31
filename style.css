@@ -21,7 +21,7 @@ img {
 body {
   background: #592B0E;
   color: white;
-  width: 95%;
+  /* width: 95%; */
   max-width: 1500px;
   margin: 0 auto;
   font-family: "Oswald";
@@ -168,20 +168,28 @@ nav a:hover {
 /* Section One */
 
 .section-one {
-  margin: 11rem 2rem 0;
+  margin: 0;
+  width: 100%;
+  background-image: url('https://i.postimg.cc/66RV5WVm/Capture.jpg');
+  min-height: 400px;
+  margin-top: 6rem;
 }
 
 .header {
   font-size: 4.5rem;
   color: #DFAC22;
+  text-align: center;
 }
 
 .section-one-paragraph {
-  margin: 3rem 0;
+/*   margin: 3rem 0; */
   width: 70%;
   max-width: 500px;
   line-height: 1.5rem;
   color: #DFAC22;
+  font-size: 2rem;
+  margin-left: 27rem;
+  text-align: center;
 }
 
 
