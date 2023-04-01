@@ -170,7 +170,7 @@ nav a:hover {
 .section-one {
   margin: 0;
   width: 100%;
-  background-image: url('https://i.postimg.cc/66RV5WVm/Capture.jpg');
+  background-image: url('https://i.postimg.cc/FzBQzRXY/New-Project-2.png');
   min-height: 400px;
   margin-top: 6rem;
 }
@@ -300,6 +300,7 @@ nav a:hover {
   margin: 1rem 0;
   font-size: 1.25rem;
   color: #FFDD9D;
+  text-align: center;
 }
 
 .section-eight p {
@@ -338,7 +339,7 @@ nav a:hover {
 }
 
 .section-nine svg {
-  fill: white;
+  fill: #FFDD9D;
   height: 50px;
   cursor: pointer;
   transition: ease-in-out 250ms;
